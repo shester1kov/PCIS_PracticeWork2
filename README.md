@@ -18,8 +18,8 @@ type FileAnalysis struct {
     Error     string // Ошибка обработки (если есть)
 }
 
-// GlobalResults хранит совокупные результаты
-type GlobalResults struct {
+// Results хранит совокупные результаты
+type Results struct {
     Files      map[int]FileAnalysis // Результаты по файлам
     TotalWords int                  // Общее количество слов
     TotalChars int                  // Общее количество символов
