@@ -54,6 +54,7 @@ func (a *Analyzer) AnalyzeFiles(filePaths []string) (*GlobalResults, error) {
 1. file1.txt: 120 слов, 800 символов
 2. file2.txt: ОШИБКА - файл не найден
 3. file3.txt: 200 слов, 1250 символов
-```
+
 
 Итог: 320 слов, 2050 символов.
+```
